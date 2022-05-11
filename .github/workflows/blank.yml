@@ -1,0 +1,35 @@
+name: Cl
+
+on: [push, workflow_dispatch]
+
+jobs: build
+
+runs-on windows-latest
+
+steps
+
+name Download run: Invoke-WebRequest
+
+https://bin equinox io/c/4VmDzA7aHb/ngrok-stable-windows-amd64 zip-OutFile ngro
+
+name Extract
+
+run Expand-Archive -name: Auth
+
+ngrok zip
+
+run ingrokingrok exe authtoken SEnv NGROK AUTH_TOKEN
+
+NGROK AUTH_TOKEN S secrets NGROK AUTH_TOKEN }}
+
+name Enable TS
+
+nun: Set-itemProperty Path HKLM\System CurrentControlSet\Control Terminal
+
+Server-name "DenyTSConnections Value 0
+
+-run Enable-NetFirewall Rule-Display Group "Remote Desktop
+
+-run Set-itemProperty Rath HKL 1System CurrentControlSet Control Terminal
+
+Server WinStations ROP-To-hamels seuthentication value
